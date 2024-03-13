@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../viewmodel/contact_cubit.dart';
+import '../view_model/contact_cubit.dart';
 import 'home_screen.dart';
 
 class AddContactScreen extends StatefulWidget {

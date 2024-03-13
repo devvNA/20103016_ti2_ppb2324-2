@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:praktikum_03_mvvm/view/add_contact_screen.dart';
-import 'package:praktikum_03_mvvm/viewmodel/contact_cubit.dart';
+
+import '../view_model/contact_cubit.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

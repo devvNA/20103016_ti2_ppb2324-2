@@ -19,4 +19,3 @@ class ContactLoaded extends ContactState {
   @override
   List<User> get props => user;
 }
-

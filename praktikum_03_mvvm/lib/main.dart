@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:praktikum_03_mvvm/view/home_screen.dart';
-import 'package:praktikum_03_mvvm/viewmodel/contact_cubit.dart';
+import 'package:praktikum_03_mvvm/view_model/contact_cubit.dart';
 
 void main() {
   runApp(const MyApp());
