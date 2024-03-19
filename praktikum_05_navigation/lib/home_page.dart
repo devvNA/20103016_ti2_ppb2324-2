@@ -19,16 +19,19 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) =>
-                          SecondPage(data: "Data dari Home Page")),
+                    builder: (context) =>
+                        const SecondPage(data: "Data dari Home Page"),
+                  ),
                 );
               },
               child: const Text('Menuju halaman kedua'),
             ),
+
+            //Tombol kedua
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/second_page',
-                    arguments: 'Menggunakan route');
+                    arguments: "Menggunakan route");
               },
               child: const Text('Menuju halaman kedua dengan route'),
             ),

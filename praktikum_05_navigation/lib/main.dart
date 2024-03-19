@@ -8,16 +8,17 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: false),
+      debugShowCheckedModeBanner: false,
       // home: const HomePage(),
       initialRoute: '/',
       routes: {
         '/': (context) => const HomePage(),
-        '/second_page': (context) => SecondPage(),
+        '/second_page': (context) => const SecondPage(),
       },
     );
   }
