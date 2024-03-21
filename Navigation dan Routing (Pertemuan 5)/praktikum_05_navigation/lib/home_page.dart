@@ -26,7 +26,9 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Menuju halaman kedua'),
             ),
-
+            const SizedBox(
+              height: 5.0,
+            ),
             //Tombol kedua
             ElevatedButton(
               onPressed: () {
