@@ -134,7 +134,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(top: 200),
+              margin: EdgeInsets.only(top: 120),
               child: DraggableScrollableSheet(
                 controller: DraggableScrollableController(),
                 builder: (context, scrollController) {
