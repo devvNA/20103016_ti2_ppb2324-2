@@ -7,12 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:306834710746:android:aa25c1742b4dc311cf05e3",
+        "mobilesdk_app_id": "1:306834710746:android:36723863d85842a2cf05e3",
         "android_client_info": {
-          "package_name": "com.example.praktikum_06"
+          "package_name": "com.example.fic_mini_project"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "306834710746-pncad301iktn3uemss2ffjp2ao868vfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fic_mini_project",
+            "certificate_hash": "d1f1723697dba7f61f691c1201862941eacabca4"
+          }
+        },
+        {
+          "client_id": "306834710746-svm1mqop7srjoane2d1d0iha99mkob1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDDHHZWpuTZ4yNr0vQns7n656liUAgRUVY"
@@ -20,7 +33,55 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306834710746-svm1mqop7srjoane2d1d0iha99mkob1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306834710746-j55ck16fipv455imtej5lpq6mb54nl5v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.praktikum06"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306834710746:android:aa25c1742b4dc311cf05e3",
+        "android_client_info": {
+          "package_name": "com.example.praktikum_06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306834710746-svm1mqop7srjoane2d1d0iha99mkob1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDHHZWpuTZ4yNr0vQns7n656liUAgRUVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306834710746-svm1mqop7srjoane2d1d0iha99mkob1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306834710746-j55ck16fipv455imtej5lpq6mb54nl5v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.praktikum06"
+              }
+            }
+          ]
         }
       }
     }

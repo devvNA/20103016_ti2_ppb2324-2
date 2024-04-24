@@ -1,12 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:praktikum_06/firebase_options.dart';
 import 'package:praktikum_06/ui/splash.dart';
 import 'package:praktikum_06/utils/routes.dart';
 
 import 'bloc/login/login_cubit.dart';
 import 'bloc/register/register_cubit.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

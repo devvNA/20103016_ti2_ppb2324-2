@@ -35,7 +35,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ));
           }
           if (state is RegisterSuccess) {
-// context.read<AuthCubit>().loggedIn();
             ScaffoldMessenger.of(context)
               ..hideCurrentSnackBar()
               ..showSnackBar(SnackBar(

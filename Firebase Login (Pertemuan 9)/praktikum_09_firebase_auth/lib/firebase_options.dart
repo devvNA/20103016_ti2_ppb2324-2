@@ -15,41 +15,6 @@ import 'package:flutter/foundation.dart'
 /// );
 /// ```
 class DefaultFirebaseOptions {
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDDHHZWpuTZ4yNr0vQns7n656liUAgRUVY',
-    appId: '1:306834710746:android:aa25c1742b4dc311cf05e3',
-    messagingSenderId: '306834710746',
-    projectId: 'prakflutterfirebase-1c1bc',
-    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAUaSr5D1JH9a2RrxJCLqvu3gb3LDgwPxI',
-    appId: '1:306834710746:ios:b1f619c2676c3448cf05e3',
-    messagingSenderId: '306834710746',
-    projectId: 'prakflutterfirebase-1c1bc',
-    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
-    iosBundleId: 'com.example.praktikum06',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAUaSr5D1JH9a2RrxJCLqvu3gb3LDgwPxI',
-    appId: '1:306834710746:ios:56aaa7de398a7720cf05e3',
-    messagingSenderId: '306834710746',
-    projectId: 'prakflutterfirebase-1c1bc',
-    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
-    iosBundleId: 'com.example.praktikum06.RunnerTests',
-  );
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAUUGquKGCWXteSJoU8l3FsGerfmWLm470',
-    appId: '1:306834710746:web:53809486c999a8a3cf05e3',
-    messagingSenderId: '306834710746',
-    projectId: 'prakflutterfirebase-1c1bc',
-    authDomain: 'prakflutterfirebase-1c1bc.firebaseapp.com',
-    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
-  );
-
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
       return web;
@@ -77,4 +42,43 @@ class DefaultFirebaseOptions {
         );
     }
   }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAUUGquKGCWXteSJoU8l3FsGerfmWLm470',
+    appId: '1:306834710746:web:53809486c999a8a3cf05e3',
+    messagingSenderId: '306834710746',
+    projectId: 'prakflutterfirebase-1c1bc',
+    authDomain: 'prakflutterfirebase-1c1bc.firebaseapp.com',
+    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyDDHHZWpuTZ4yNr0vQns7n656liUAgRUVY',
+    appId: '1:306834710746:android:aa25c1742b4dc311cf05e3',
+    messagingSenderId: '306834710746',
+    projectId: 'prakflutterfirebase-1c1bc',
+    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAUaSr5D1JH9a2RrxJCLqvu3gb3LDgwPxI',
+    appId: '1:306834710746:ios:b1f619c2676c3448cf05e3',
+    messagingSenderId: '306834710746',
+    projectId: 'prakflutterfirebase-1c1bc',
+    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
+    androidClientId: '306834710746-pncad301iktn3uemss2ffjp2ao868vfj.apps.googleusercontent.com',
+    iosClientId: '306834710746-j55ck16fipv455imtej5lpq6mb54nl5v.apps.googleusercontent.com',
+    iosBundleId: 'com.example.praktikum06',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyAUaSr5D1JH9a2RrxJCLqvu3gb3LDgwPxI',
+    appId: '1:306834710746:ios:56aaa7de398a7720cf05e3',
+    messagingSenderId: '306834710746',
+    projectId: 'prakflutterfirebase-1c1bc',
+    storageBucket: 'prakflutterfirebase-1c1bc.appspot.com',
+    androidClientId: '306834710746-pncad301iktn3uemss2ffjp2ao868vfj.apps.googleusercontent.com',
+    iosClientId: '306834710746-o6r5um5lrub4f9l3vgnup5ehanjpjbjb.apps.googleusercontent.com',
+    iosBundleId: 'com.example.praktikum06.RunnerTests',
+  );
 }
